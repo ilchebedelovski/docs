@@ -3,10 +3,13 @@
 
 ## Ansible
 
+
+```
 $ ansible all -m ping
 $ ansible vmware-dockerswarm -m ping
-$ ansible all -m command -a 'ps aux' -f1 -i inventory
-	-f1 => limit processes
+$ ansible all -m command -a 'ps aux' -f1 -i inventory 
+			-f1 => limit processes
+```
 
 - Create new Role
 - Create playbook/deploy-rolename.yml
